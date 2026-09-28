@@ -248,4 +248,3 @@ Feel free to contact me regarding research collaboration, robotics projects, Vis
 ---
 
 _Last updated: September 2026_
-```
