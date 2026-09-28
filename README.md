@@ -18,7 +18,7 @@ An improved vision from [@Xiao-Chenguang](https://github.com/Xiao-Chenguang): [[
 - Mobile friendly
 - Supporting Markdown 
 - Supporting dark mode
-
+- 
 ## Project Architecture
 
 ```
