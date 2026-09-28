@@ -2,7 +2,7 @@
 
 [![LICENSE](https://img.shields.io/github/license/yaoyao-liu/minimal-light?style=flat-square&logo=creative-commons&color=EF9421)](https://github.com/yaoyao-liu/minimal-light/blob/main/LICENSE)
  
-*This is the source code of my homepage. I build this website based on [minimal](https://github.com/orderedlist/minimal) and [繁體中文](https://github.com/yaoyao-liu/minimal-light/blob/master/README_zh_Hant.md).*
+*This is the source code of my homepage. I build this website based on [minimal](https://github.com/orderedlist/minimal).*
 <br>
 *Feel free to use and share the source code anywhere you like.*
 
