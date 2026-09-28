@@ -595,3 +595,79 @@ footer {
   display:none;
   font-family: monospace;
 }
+
+/* Readable content in light and dark mode */
+body {
+  color: #293544;
+  line-height: 1.65;
+}
+
+section h2 {
+  margin: 38px 0 16px;
+  padding-bottom: 8px;
+  border-bottom: 1px solid #dce4ec;
+}
+
+section h3 {
+  margin: 26px 0 10px;
+  line-height: 1.3;
+}
+
+section p,
+section li {
+  line-height: 1.65;
+}
+
+section :not(pre) > code {
+  padding: .12em .36em;
+  border-radius: 4px;
+  background: #edf3f8;
+  color: #17446b;
+  white-space: normal;
+  overflow-wrap: anywhere;
+}
+
+section blockquote {
+  margin: 24px 0;
+  padding: 12px 18px;
+  background: #f2f6fa;
+  border-left: 3px solid #286490;
+  color: #293544;
+  font-size: 1rem;
+}
+
+@media (prefers-color-scheme: dark) {
+  body {
+    background: #171c25;
+    color: #e1e7ef;
+  }
+
+  strong {
+    color: #f4f7fb;
+  }
+
+  section h2 {
+    border-color: #364557;
+  }
+
+  section :not(pre) > code {
+    background: #293748;
+    color: #d4ebff;
+  }
+
+  section pre {
+    background: #222d3b;
+    border-color: #364557;
+  }
+
+  section pre,
+  section pre code {
+    color: #e1e7ef;
+  }
+
+  section blockquote {
+    background: #222d3b;
+    border-color: #79c8ff;
+    color: #e1e7ef;
+  }
+}
