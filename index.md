@@ -239,10 +239,9 @@ to improve robustness in situations where traditional robotics algorithms begin 
 
 Feel free to contact me regarding research collaboration, robotics projects, Visual-Inertial Odometry or UAV research.
 
-**Email:** your.email@example.com  
-**GitHub:** [github.com/yourusername](https://github.com/yourusername)  
-**LinkedIn:** [LinkedIn](#)  
-**Google Scholar:** [Google Scholar](#)
+**Email:** 221488@vut.cz  
+**GitHub:** [Github](https://github.com/Xismoos)  
+**LinkedIn:** [LinkedIn](https://www.linkedin.com/in/simon-prokop/)  
 
 <br>
 
