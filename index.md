@@ -1,23 +1,252 @@
----
-layout: homepage
----
 
 ## About Me
 
-I am a Ph.D. student at ...
+Hi! I'm **Šimon Prokop**, a PhD researcher at **Brno University of Technology**, currently working in the areas of **autonomous robotics, UAVs, computer vision, and Visual-Inertial Odometry**.
 
-## Research Interests
+My research focuses mainly on reliable state estimation and autonomous navigation for small aerial robots operating in **GNSS-denied environments**.
 
-- **Computer Vision:** image recognition, image generation, video captioning
-- **Machine Learning:** meta-learning, incremental learning, transfer learning
+I am currently interested in combining classical geometric methods such as **Visual-Inertial Odometry / SLAM** with **adaptive and continual-learning approaches**.
 
-## News
+<br>
 
-- **[Feb. 2020]** Our paper about incremental learning is accepted to CVPR 2020.
-- **[Feb. 2020]** We will host the ACM Multimedia Asia 2020 conference in Singapore!
-- **[Sept. 2019]** Our paper about few-shot learning is accepted to NeurIPS 2019.
-- **[Mar. 2019]** Our paper about few-shot learning is accepted to CVPR 2019.
+## 🔬 Research Interests
 
-{% include_relative _includes/publications.md %}
+- Visual-Inertial Odometry
+- Visual Odometry
+- Autonomous UAV Navigation
+- Computer Vision
+- State Estimation
+- SLAM
+- Continual Learning
+- Adaptive Robotics
+- ROS / ROS 2
+- Embedded Robotics
 
-{% include_relative _includes/services.md %}
+<br>
+
+## 🚀 Current Research
+
+### Adaptive Visual-Inertial Odometry for UAVs
+
+My current research investigates **robust Visual-Inertial Odometry for small multirotor UAVs** operating indoors and in GNSS-denied environments.
+
+The goal is to develop and evaluate a real-time VIO pipeline capable of handling:
+
+- fast UAV motion,
+- rapid rotations,
+- low-texture environments,
+- motion blur,
+- changing illumination,
+- dynamic objects,
+- limited onboard computational resources.
+
+The system is primarily built around **OpenVINS**, ROS 2, synchronized camera + IMU measurements, and onboard embedded computing.
+
+**Technologies:**  
+`OpenVINS` `ROS 2` `C++` `Python` `OpenCV` `Eigen` `Jetson`
+
+[GitHub](#) · [Project Page](#) · [Results](#)
+
+---
+
+### 🌿 UAV Tracking of Dynamic Objects
+
+Another research direction explores autonomous UAV tracking of **moving and deformable objects**, such as tree branches affected by wind.
+
+The project combines:
+
+- VIO-based drone state estimation,
+- visual object tracking,
+- relative target pose estimation,
+- adaptive control,
+- continual learning.
+
+The objective is to enable the drone to continuously adapt its motion while following a dynamically moving target.
+
+**Technologies:**  
+`OpenVINS` `Computer Vision` `Continual Learning` `UAV Control`
+
+[Project Page](#) · [GitHub](#)
+
+---
+
+### 📊 VIO Evaluation & Benchmarking Toolkit
+
+I am also developing tools for evaluating Visual-Inertial Odometry algorithms using datasets such as **EuRoC MAV**.
+
+The evaluation pipeline includes:
+
+- Absolute Trajectory Error (ATE),
+- Relative Pose Error (RPE),
+- trajectory alignment,
+- tracking success rate,
+- runtime measurements,
+- visualization,
+- automatic experiment logging.
+
+The goal is to create a simple and reproducible framework for comparing multiple VIO configurations and algorithms.
+
+**Technologies:**  
+`Python` `ROS 2` `OpenVINS` `EuRoC` `NumPy` `OpenCV`
+
+[GitHub](#)
+
+<br>
+
+## 📰 News
+
+**2026-09**  
+Visiting research stay at the **University of Bristol**.
+
+**2026-09**  
+Started research on adaptive UAV tracking using Visual-Inertial Odometry and continual learning.
+
+**2026-08**  
+Started development of a UAV VIO dataset and evaluation pipeline.
+
+**2026-06**  
+Development of real-time Visual-Inertial Odometry experiments for embedded UAV platforms.
+
+<br>
+
+## 🛠 Selected Projects
+
+### OpenVINS Experiment Framework
+
+Tools for running, logging and evaluating OpenVINS experiments using public and custom datasets.
+
+Features include:
+
+- automated experiment folders,
+- configuration logging,
+- trajectory export,
+- ATE/RPE evaluation,
+- reproducible dataset experiments.
+
+[View Project](#)
+
+---
+
+### ROS 2 Camera + IMU Dataset Recorder
+
+A ROS 2 based recording pipeline designed for synchronized camera and IMU data collection.
+
+Target platforms include:
+
+- Raspberry Pi 5,
+- NVIDIA Jetson,
+- global-shutter cameras,
+- MAVLink / flight-controller IMUs.
+
+Recorded datasets can be used directly for VIO evaluation and algorithm development.
+
+[View Project](#)
+
+---
+
+### Real-Time Stereo Visual Odometry
+
+Experimental stereo Visual Odometry pipeline based on:
+
+1. stereo rectification,
+2. feature detection,
+3. feature tracking,
+4. stereo triangulation,
+5. PnP motion estimation,
+6. trajectory evaluation.
+
+[View Project](#)
+
+<br>
+
+## 📚 Publications
+
+_Work in progress._
+
+<!-- Example:
+
+**Title of Publication**  
+Šimon Prokop, Author Two, Author Three  
+*Conference / Journal, 2026*  
+
+[Paper](#) · [Code](#) · [Dataset](#)
+
+-->
+
+<br>
+
+## 🎓 Education & Research
+
+### Brno University of Technology
+
+**PhD Researcher**
+
+Research areas:
+
+- robotics,
+- autonomous systems,
+- computer vision,
+- aerial robotics,
+- Visual-Inertial Odometry.
+
+---
+
+### University of Bristol
+
+**Visiting PhD Researcher — 2026**
+
+Research collaboration focused on autonomous UAV navigation, Visual-Inertial Odometry and adaptive robotic systems.
+
+<br>
+
+## 💻 Technical Skills
+
+**Programming**
+
+`C++` `Python` `Bash` `MATLAB`
+
+**Robotics**
+
+`ROS` `ROS 2` `MAVROS` `ArduPilot`
+
+**Computer Vision**
+
+`OpenCV` `OpenVINS` `ORB-SLAM` `VINS`
+
+**Embedded**
+
+`NVIDIA Jetson` `Raspberry Pi` `Flight Controllers`
+
+**Tools**
+
+`Git` `Docker` `CMake` `Linux`
+
+<br>
+
+## 📈 Research Goals
+
+My long-term research goal is to develop autonomous robotic systems that can operate reliably in complex environments without depending on external positioning infrastructure.
+
+I am particularly interested in combining:
+
+> **geometric robotics + state estimation + adaptive machine learning**
+
+to improve robustness in situations where traditional robotics algorithms begin to fail.
+
+<br>
+
+## 📬 Contact
+
+Feel free to contact me regarding research collaboration, robotics projects, Visual-Inertial Odometry or UAV research.
+
+**Email:** your.email@example.com  
+**GitHub:** [github.com/yourusername](https://github.com/yourusername)  
+**LinkedIn:** [LinkedIn](#)  
+**Google Scholar:** [Google Scholar](#)
+
+<br>
+
+---
+
+_Last updated: September 2026_
+```
